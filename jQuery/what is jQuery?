@@ -25,5 +25,16 @@
       javascript의 load 이벤트와 비슷
       
   * jQuery 기본 문법 - Selector(선택자)
+    
+    $(‘a’) – page 내 모든 <a>
+    $(‘div a’) – page 내 <div> 하위에 있는  <a>
+    $(‘#test’) – id가 test인 태그
+    $(‘.btn’) – class가 btn인 모든 태그
+    $(‘tr:odd’) - <tr> 태그들 중 홀수번째들
+    $(‘tr:last tr:last’) – 문서내의 마지막 <tr> 
+    $(‘b:contains(‘hi’)) – hi를 content로 가진 b태그
+    $(‘div:has(‘ul’) - <ul> 을 가진 <div> 태그 
+    $(‘input:checkbox’) – input태그중 checkbox
+    $(‘td nth-child(2n)’) –2의 배수 번째 <td>
   
   
