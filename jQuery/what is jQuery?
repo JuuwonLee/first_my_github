@@ -38,3 +38,21 @@
     $(‘td nth-child(2n)’) –2의 배수 번째 <td>
   
   
+  * Content/DOM 변경 및 조회 메소드
+  
+    html()
+    – 선택요소의 html 내용을 가져옴. innerHTML과 동일
+    html(value)
+    – 선택요소에 인수로 받은 value를 넣는다.
+    – value내에 html태그가 있는 경우 태그로 들어간다.
+    text()
+    – 선택요소 내의 html태그 요소를 제외한 내용을 가져옴.
+    innerText innerText와 동일.
+    text(value)
+    – 선택요소 내에 인수로 받은 value를 넣는다.
+    – value내의 html태그도 text로 들어간다.
+    val()
+    – input 태그의 value 값을 조회
+    val(value)
+    – 인수로 받은 value를 input 태그의 value 값을 설정
+  
